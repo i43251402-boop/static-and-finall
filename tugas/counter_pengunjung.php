@@ -1,5 +1,5 @@
 <?php
-
+// Perubahan untuk testing before after
 class Pengunjung {
 
     public static $jumlah = 0;
