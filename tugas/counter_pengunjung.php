@@ -1,5 +1,5 @@
 <?php
-// Perubahan untuk testing before after
+
 class Pengunjung {
 
     public static $jumlah = 0;
@@ -8,17 +8,11 @@ class Pengunjung {
         self::$jumlah++;
     }
 
-    public static function reser() {
-        self::$jumlah = 0;
-    }
-
 }
 
 $p1 = new Pengunjung();
 $p2 = new Pengunjung();
 $p3 = new Pengunjung();
-$p4 = new Pengunjung();
-$p5 = new Pengunjung();
 
 echo "Jumlah Pengunjung: Pengunjung: " . Pengunjung::$jumlah
 ?>
